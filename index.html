@@ -115,6 +115,14 @@
               </span>
             </a>
           </li>
+          <li class="list-inline-item">
+            <a href="https://bitbucket.org/mgeorgebrown89/">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
         </ul>
       </div>
     </section>
@@ -122,6 +130,26 @@
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
       <div class="my-auto">
         <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Software Development Engineer II</h3>
+            <div class="subheading mb-3">
+              <a href="https://www.viewpoint.com">Viewpoint Construction Software</a>
+            </div>
+            <p>
+              I do most everything that I did in my previous position at Viewpoint, but now my work is more focused on
+              CICD pipelines
+              and general DevOps-related stuff. My big win in 2020 was massive cost savings accross all our environments
+              (dev to prod)
+              and taking our release-process for our main SaaS product "Team" from a 6+ hour process (35 microservices)
+              to under 90 minutes.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2020 - Present</span>
+          </div>
+        </div>
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
@@ -138,7 +166,7 @@
             </p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">June 2018 - Present</span>
+            <span class="text-primary">June 2018 - December 2019</span>
           </div>
         </div>
 
@@ -240,10 +268,28 @@
               <a href="https://github.com/mgeorgebrown89/PSlickPSlack">PSlickPSlack</a>
             </div>
             <p>The PSlickPSlack PowerShell module is an open-source project I started to help me with my PowerShell
-              Slack application.
+              Slack application. It is tested with Pester, and has a CI-CD pipeline on AppVeyor to publish it to the
+              PowerShell Gallery.
             </p>
           </div>
         </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Viewpoint</h3>
+            <div class="subheading mb-3">
+              <a href="https://github.com/mgeorgebrown89/PSlickPSlack">ViewpointOne Release Management (VORM)</a>
+            </div>
+            <p>VORM is a powershell module I built as a relase orchestration tool to help with our SaaS products monthly
+              release.
+              Team is currently composed of about 35 microservices, and usually 25 or so are updated each month.
+              This tool is built on top of the Azure DevOps APIs and utilizes the Azure CLI to incorporate many of the
+              SaaS product's
+              unique characteristics ("this service should go before this one", etc.) and idiosyncrasies.
+            </p>
+          </div>
+        </div>
+
     </section>
 
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
@@ -328,13 +374,8 @@
           <li class="list-inline-item">
             <i class="devicon-bootstrap-plain-wordmark"></i>
           </li>
-          <li class="list-inline-item">
-            <i class="devicon-eclipse-plain-wordmark">
-              <small>
-                <small> Eclipse </small>
-              </small>
-            </i>
-          </li>
+          <li class="list-inline-item">Kubernetes</li>
+          <li class="list-inline-item">Kafka</li>
         </ul>
 
         <div class="subheading mb-3">Workflow</div>
@@ -342,6 +383,12 @@
           <li>
             <i class="fa-li fa fa-check"></i>
             Disciplined Agile Development &amp; Scrum</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Git Worflow</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Git Forking Workflow</li>
         </ul>
       </div>
     </section>
@@ -352,7 +399,7 @@
 
         <h3 class="mb-0">Family</h3>
         <div class="subheading mb-3"></div>
-        <p>I love spending time with my wife and three daughters (under the age of four!)</p>
+        <p>I love spending time with my wife and three daughters!</p>
 
         <h3 class="mb-0">Fitness</h3>
         <div class="subheading mb-3">Running</div>
